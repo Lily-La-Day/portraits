@@ -1,0 +1,395 @@
+#frontpage {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+#frontpage img {
+
+display: grid;
+  padding: 20px;
+height: 200px;
+  width: auto;
+
+  }
+
+  .photoBtn:hover {
+    opacity: 0;
+  }
+
+.photoBtn {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+
+
+[class*="art"] {
+  z-index: -1;
+}
+
+.photos {
+  opacity: 1;
+}
+.clicked {
+  opacity: 0;
+  }
+
+[class*="trump"] {
+  grid-area: 1 / 1;
+}
+
+
+[class*="slick"] {
+  grid-area: 1 / 2;
+}
+
+[class*="bikini"] {
+  grid-area: 1 / 3;
+}
+
+
+[class*="wonky"] {
+
+  grid-area: 1 / 4;
+}
+
+[class*="white"] {
+
+  grid-area: 2 / 1;
+}
+
+[class*="warhol"] {
+
+  grid-area: 2 / 2;
+}
+
+[class*="ugly_bed"] {
+
+  grid-area: 2 / 3;
+}
+
+[class*="trip"] {
+  grid-area: 2 / 4;
+}
+
+
+[class*="tache_painting"] {
+
+  grid-area: 3 / 1;
+}
+[class*="surreal_profile"] {
+
+  grid-area: 5 / 4;
+}
+
+[class*="white_mouth"] {
+  grid-area: 3 / 3;
+}
+
+[class*="stretch_neck"] {
+  grid-area: 3 / 4;
+}
+
+[class*="stare"] {
+
+  grid-area: 4 / 1;
+}
+
+[class*="silly"] {
+  grid-area: 4 / 2;
+}
+
+[class*="leopard"] {
+  grid-area: 18 / 1;
+}
+
+[class*="pretty_pout"] {
+
+  grid-area: 4 / 4;
+}
+
+[class*="polo"] {
+
+  grid-area: 5 / 1;
+}
+
+[class*="mirror"] {
+
+  grid-area: 18 / 2;
+}
+
+[class*="metal"] {
+
+  grid-area: 5 / 3;
+}
+
+.box {
+
+align-content: center;
+justify-content: center;
+  display: grid;
+  border: 2px solid;
+  border-color: black;
+height: 200px;
+    width: 200px;
+    max-width: 200px;
+    min-width: 200px;
+margin: 20px;
+  height: auto;
+    width: auto;
+    background-color: white;
+}
+
+
+.linkwords:link, .linkwords:active, .linkwords:visited {
+font-size: 20pt;
+  align-content: center;
+  justify-content: center;
+ text-align: center;
+    font-family: 'Amatic SC', cursive;
+  margin: 20px;
+    height: auto;
+      width: auto;
+      text-decoration: none;
+color: black;
+}
+.linkwords:hover {
+  font-size: 50pt;
+}
+
+
+
+#projects {
+  grid-area: 3 / 2;
+}
+
+#business {
+  grid-area: 4 / 3;
+}
+
+#about {
+  grid-area: 5 / 2;
+}
+#products {
+  grid-area: 6 / 3;
+}
+#links {
+  grid-area: 7 / 2;
+}
+
+#design {
+  grid-area: 8 / 3;
+}
+
+
+[class*="jumper"] {
+
+  grid-area: 6 / 1;
+}
+[class*="intense"] {
+
+  grid-area: 6 / 2;
+}
+[class*="abstract"] {
+
+  grid-area: 18 / 3;
+}
+[class*="exploding"] {
+
+  grid-area: 6 / 4;
+}
+[class*="dot"] {
+
+  grid-area: 7 / 1;
+}
+[class*="deform"] {
+
+  grid-area: 18 / 4;
+}
+[class*="collar"] {
+
+  grid-area: 7 / 3;
+}
+
+[class*="cheek_suck"] {
+
+  grid-area: 7 / 4;
+}
+
+[class*="burton"] {
+
+  grid-area: 8 / 1;
+}
+
+[class*="brow_up"] {
+
+  grid-area: 8 / 2;
+}
+
+[class*="bite_lip"] {
+
+  grid-area: 8 / 4;
+}
+[class*="big_lips"] {
+
+  grid-area: 9 / 1;
+}
+[class*="big_bald"] {
+
+  grid-area: 9 / 2;
+}
+[class*="best"] {
+
+  grid-area: 9 / 3;
+}
+[class*="banana"] {
+
+  grid-area: 9 / 4;
+}
+[class*="bald_painting"] {
+
+  grid-area: 10 / 1;
+}
+
+[class*="fishy"] {
+
+  grid-area: 10 / 2;
+}
+
+[class*="wet_hair"] {
+
+  grid-area: 10 / 3;
+}
+[class*="gross"] {
+
+  grid-area: 10 / 4;
+}
+
+[class*="thing"] {
+
+  grid-area: 11 / 1;
+}
+
+[class*="sunglasses"] {
+
+  grid-area: 11 / 2;
+}
+
+[class*="statue"] {
+
+  grid-area: 11 / 3;
+}
+[class*="sofa"] {
+
+  grid-area: 11 / 4;
+}
+[class*="side_face"] {
+
+  grid-area: 12 / 1;
+}
+
+[class*="profile_boy"] {
+
+  grid-area: 12 / 2;
+}
+[class*="blue_wall"] {
+
+  grid-area: 12 / 3;
+}
+[class*="pouty"] {
+
+  grid-area: 12 / 4;
+}
+[class*="shoulders"] {
+
+  grid-area: 13 / 1;
+}
+
+
+[class*="polo_beige"] {
+
+  grid-area: 13 / 2;
+}
+[class*="poem"] {
+
+  grid-area: 13 / 3;
+}
+[class*="omg"] {
+
+  grid-area: 13 / 4;
+}
+[class*="no_top_lip"] {
+
+  grid-area: 14 / 1;
+}
+[class*="no_lips"] {
+
+  grid-area: 14 / 2;
+}
+
+[class*="no_eyes"] {
+
+  grid-area: 14 / 3;
+}
+[class*="moustache"] {
+
+  grid-area: 14 / 4;
+}
+
+[class*="look"] {
+
+  grid-area: 15 / 1;
+}
+
+[class*="long_neck"] {
+
+  grid-area: 15 / 2;
+}
+
+[class*="jigsaw"] {
+
+  grid-area: 15 / 3;
+}
+[class*="hand_chest"] {
+
+  grid-area: 15 / 4;
+}
+[class*="fish_neck"] {
+
+  grid-area: 16 / 1;
+}
+
+[class*="dinosaur"] {
+
+  grid-area: 16 / 2;
+}
+[class*="curious"] {
+
+  grid-area: 16 / 3;
+}
+[class*="collage"] {
+
+  grid-area: 16 / 4;
+}
+[class*="chin"] {
+
+  grid-area: 17 / 1;
+}
+[class*="boris"] {
+
+  grid-area: 17 / 2;
+}
+
+[class*="blue_chin"] {
+
+  grid-area: 17 / 3;
+}
+
+[class*="scared"] {
+
+  grid-area: 17 / 4;
+}
