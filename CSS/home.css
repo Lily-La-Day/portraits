@@ -15,6 +15,28 @@ height: 200px;
 
   }
 
+  #webdev {
+    grid-area: 3 / 2;
+  }
+
+  #design {
+    grid-area: 4 / 3;
+  }
+
+  #projects {
+    grid-area: 5 / 2;
+  }
+  #cv {
+    grid-area: 6 / 3;
+  }
+  #links {
+    grid-area: 7 / 2;
+  }
+
+  #crossword {
+    grid-area: 8 / 3;
+  }
+
   .photoBtn:hover {
     opacity: 0;
   }
@@ -129,61 +151,44 @@ height: 200px;
 
 .box {
 
-align-content: center;
-justify-content: center;
+  align-content: center;
+  justify-content: center;
   display: grid;
   border: 2px solid;
   border-color: black;
-height: 200px;
-    width: 200px;
-    max-width: 200px;
-    min-width: 200px;
-margin: 20px;
+  height: 200px;
+  width: 200px;
+  max-width: 200px;
+  min-width: 200px;
+  margin: 20px;
   height: auto;
-    width: auto;
-    background-color: white;
+  width: auto;
+  background-color: white;
 }
 
 
-.linkwords:link, .linkwords:active, .linkwords:visited {
-font-size: 20pt;
+.linkwords:link, .linkwords:active, .linkwords:visited, .linkwordslong:link,
+.linkwordslong:active, .linkwordslong:visited {
+  font-size: 20pt;
   align-content: center;
   justify-content: center;
- text-align: center;
-    font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
   margin: 20px;
-    height: auto;
-      width: auto;
-      text-decoration: none;
-color: black;
+  height: auto;
+  width: auto;
+  text-decoration: none;
+  color: black;
 }
 .linkwords:hover {
   font-size: 50pt;
 }
-
-
-
-#projects {
-  grid-area: 3 / 2;
+.linkwordslong:hover {
+  font-size: 30pt;
 }
 
-#business {
-  grid-area: 4 / 3;
-}
 
-#about {
-  grid-area: 5 / 2;
-}
-#products {
-  grid-area: 6 / 3;
-}
-#links {
-  grid-area: 7 / 2;
-}
 
-#design {
-  grid-area: 8 / 3;
-}
 
 
 [class*="jumper"] {
