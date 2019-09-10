@@ -1,0 +1,273 @@
+body,
+html {
+}
+
+#container {
+
+   display: grid;
+ grid-template-columns:  100px repeat(15, 50px) 50px 10px 1fr 10px 1fr ;
+  grid-template-rows: 75px 30px repeat(15, 50px);
+  position: relative;
+}
+
+.crossword {
+
+  display: grid;
+  position: relative;
+  grid-row-start: 4;
+  grid-column-start: 2;
+  grid-template-rows: repeat(15, 50px);
+  grid-template-columns: repeat(15, 50px);
+
+
+}
+
+#pbody {
+  background-image: url("https://image.ibb.co/c3FOHf/background.png");
+}
+
+#project-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 2fr 1fr;
+justify-items: center;
+align-items: center;
+align-content: center;
+}
+
+#hashtag {
+  display: grid;
+  grid-area: 2 / 1;
+}
+
+#selfie {
+  display: grid;
+  grid-area: 2 / 2;
+}
+
+#not-a-selfie {
+  display: grid;
+  grid-area: 2 / 3;
+}
+
+.pbox{
+  align-content: center;
+justify-content: center;
+  display: grid;
+  border: 2px solid;
+  border-color: black;
+  width: 400px;
+    max-width: 400px;
+    min-width: 300px;
+margin: 20px;
+  min-height: 300px;
+  background-color: white;
+}
+
+
+
+.plinkwords:link, .plinkwords:active, .plinkwords:visited {
+font-size: 25pt;
+  align-content: center;
+  justify-content: center;
+ text-align: center;
+    font-family: 'Amatic SC', cursive;
+  margin: 20px;
+    height: auto;
+      width: auto;
+      text-decoration: none;
+color: black;
+}
+
+.plinkwords:hover {
+  font-size: 50pt;
+
+}
+
+.container-hashtag {
+  display: grid;
+  grid-template-columns: 20px 2fr 10fr 2fr 10px;
+  grid-template-rows: 15px 100px 50px repeat(10, 2fr);
+
+  grid-gap: 20px;
+  align-items: center;
+
+}
+.hashtag-title{
+  display: grid;
+  grid-area: 2 / 3 / 3 / 3;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45pt;
+    text-align: center;
+
+}
+
+.hashtag-description {
+  display: grid;
+  grid-area: 3 /3 / 4 / 3;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20pt;
+  text-align: center;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.hashtag-video {
+  display: grid;
+  grid-area: 4 / 3 / 6 / 3;
+justify-content: space-around;
+border: 10px solid #ddd;
+border-radius: 4px;
+
+
+}
+
+.hashtagpic {
+  border: 1px solid #ddd;
+     border-radius: 4px;
+     padding: 5px;
+     width: 150px;
+     width: 150px;
+  display: grid;
+height: 250px;
+width: auto;
+  align-content: center;
+  justify-content: center;
+
+}
+
+[class*="alina"] {
+
+  grid-area: 3 / 2 / 4 / 2;
+}
+[class*="korean"] {
+  grid-area: 3 / 4/ 4 / 5;
+}
+[class*="samuel"] {
+  grid-area: 5 / 2/ 5 / 2
+}
+[class*="ruben"] {
+  grid-area: 5  / 4/ 5/ 5;
+}
+
+#tit {
+  font-size: 35pt;
+  display: grid;
+  grid-area: 1 / 2 / span 1 / span 15;
+  font-family: "Times New Roman";
+
+  }
+
+  #setby {
+    display: grid;
+    grid-area: 2 / 2 / span 1 / span 2;
+margin-top: 40px;
+  }
+
+li {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+ol li {
+font-weight: bold;
+
+         }
+         li > p {
+            font-weight: normal;
+                       }
+
+.crossword :nth-child(n+7):nth-child(-n+8), .crossword :nth-child(17),
+.crossword :nth-child(19),.crossword :nth-child(21),.crossword :nth-child(22),.crossword :nth-child(23),
+.crossword :nth-child(25),.crossword :nth-child(27),
+.crossword :nth-child(29),.crossword :nth-child(40),
+.crossword :nth-child(47),.crossword :nth-child(49),.crossword :nth-child(51),
+.crossword :nth-child(53),.crossword :nth-child(55),.crossword :nth-child(57),
+.crossword :nth-child(59),.crossword :nth-child(25),.crossword :nth-child(25),
+.crossword :nth-child(66), .crossword :nth-child(n+77):nth-child(-n+79),
+.crossword :nth-child(81), .crossword :nth-child(83),
+.crossword :nth-child(n+85):nth-child(-n+87),
+.crossword :nth-child(89),.crossword :nth-child(n+98):nth-child(-n+100),
+.crossword :nth-child(n+105):nth-child(-n+107), .crossword :nth-child(109),
+ .crossword :nth-child(111), .crossword :nth-child(113),.crossword :nth-child(115), .crossword :nth-child(117),
+ .crossword :nth-child(n+119):nth-child(-n+121), .crossword :nth-child(128),.crossword :nth-child(134),
+ .crossword :nth-child(137),  .crossword :nth-child(n+139):nth-child(-n+143),
+ .crossword :nth-child(145),
+ .crossword :nth-child(n+147):nth-child(-n+149),  .crossword :nth-child(160),
+ .crossword :nth-child(167), .crossword :nth-child(169), .crossword :nth-child(171), .crossword :nth-child(172),
+  .crossword :nth-child(173), .crossword :nth-child(175), .crossword :nth-child(177),
+  .crossword :nth-child(179), .crossword :nth-child(182),.crossword :nth-child(190), .crossword :nth-child(197),
+  .crossword :nth-child(199), .crossword :nth-child(200), .crossword :nth-child(202),.crossword :nth-child(203),
+  .crossword :nth-child(205), .crossword :nth-child(207), .crossword :nth-child(209),
+  .crossword :nth-child(n+218):nth-child(-n+219)
+   {
+  background-color: black;
+}
+
+
+#questionsacross, #questionsdown {
+    display: grid;
+  line-height: 0.7;
+}
+
+
+#questionsacross {
+
+grid-area: 3 / 18
+}
+
+#questionsdown {
+
+  grid-area: 3 / 20;
+}
+
+.nletters {
+  display: grid;
+  text-align: center;
+  font-family: "Nanum Gothic";
+  font-weight: lighter;
+  font-size: 22pt;
+  line-height: 0;
+  align-items: center;
+  opacity: 0;
+  justify-content: center;
+margin-bottom: 0.7em;
+
+}
+
+.letters {
+  display: grid;
+  text-align: center;
+  font-family: "Nanum Gothic";
+  font-weight: lighter;
+  font-size: 22pt;
+  line-height: 0;
+  align-items: center;
+  opacity: 0;
+  justify-content: center;
+}
+
+
+h3 {
+text-indent: 2em;
+  text-decoration: underline;
+}
+
+[class*="square"] {
+  grid-area: auto;
+  display: grid;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  font-family: "Nanum Gothic";
+  font-size: 11pt;
+  text-indent: 0.1em
+}
+
+
+
+
+
+#maykmilink {
+  display: grid;
+  grid-area:
+
+}
